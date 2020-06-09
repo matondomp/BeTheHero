@@ -1,0 +1,145 @@
+.profile-container{
+    width: 100%;
+    max-width: 1128px;
+     padding: 0 30px;
+     margin:32px auto;
+}
+.profile-container header{
+    width: 90%;
+    display:flex;
+    align-items: center;
+    margin: auto;
+}
+
+.profile-container header span {
+    font-size: 14px;
+    margin-left: 24px;
+    font-weight: bold;
+  
+}
+.profile-container header span strong{
+    color:#e02041 ;
+    margin-left:4px;
+    border-right: 2px solid #e02041;
+    padding: 4px;
+}
+.profile-container header span strong:hover{
+    color:#e02041 ;
+    margin-left:4px;
+    border-right: 2px solid black;
+    padding: 4px;
+}
+
+.profile-container header img{
+    height: 64px;
+}
+
+.profile-container header .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 230px;
+    margin-left: auto;
+    margin-top: 0;
+    padding-top:22px;
+    text-align: center;
+    box-shadow: none;
+    height:18px ;
+    border-radius:5px;
+
+}
+
+
+
+.profile-container header .btn:hover{
+    border:1px solid #e02041;
+    color:#22850e;
+    border-left:8px solid #e02041;
+    background-color:white;
+    border-radius:0;
+  
+}
+.profile-container header button{
+    margin-left: 16px;
+    height: 50px;
+    width: 50px;
+    border: 1px solid #e0204128;
+    background-color: transparent;
+    border-radius: 5px;
+     
+}
+
+.profile-container header button:hover{
+    border:1px solid #e02041;
+    border-left:8px solid #e02041;
+    background-color:white;
+    border-radius:0;
+   
+
+}
+.profile-container  h1{
+
+    margin:80px;
+    margin-bottom: 24px;
+}
+
+.profile-container ul{
+
+  display: grid;
+  grid-template-columns:repeat(auto-fit,minmax(200px,1fr)) ;
+  grid-gap: 24px;
+  list-style: none;
+
+}
+
+
+.profile-container ul li{
+    background: #fff;
+    padding: 24px;
+    position: relative;
+    border-radius: 8px;
+    box-shadow: 2px 4px 2px 2px  #73738011;
+}
+
+.profile-container ul li button{
+    position:absolute;
+    right: 24px;
+    top:24px;
+    border:0;
+     cursor: pointer;
+     
+}
+.profile-container ul li button:hover{
+   opacity: 0.5;
+   border:1px solid #e02041;
+   border-radius:5px ;
+   padding:2px;
+   
+}
+.profile-container ul li strong{
+    display: block;
+    margin-bottom: 16px;
+    color:#41414d;
+}
+
+.profile-container ul li p + strong{
+    margin-top: 32px;
+}
+
+.profile-container p{
+
+    color:#737380;
+    line-height: 21px;
+    font-size: 16px;
+}
+
+@media(max-width:600px){
+   .profile-container header img{
+    height:30px;
+}
+ .profile-container header span{
+
+}
+
+}

@@ -1,0 +1,106 @@
+
+   .logo-container{
+      width: 100%;
+      max-width: 1128px;
+      height: 100vh;
+      margin: 0 auto;
+       
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+   }
+   .form{
+    margin-left: 20%;
+    margin-right:80px;
+  
+   }
+   
+   .form h1{
+      
+      margin-top: 100px;
+      text-align: center;
+      font-size:30px;
+   }
+   .form a{
+       margin-top: 20px;
+       display: flex;
+       text-decoration: none;
+       color: #41414d;
+       font-size: 18px;
+       align-items: center;
+       transition: opacity 0.2s;
+       font-weight:500;
+       
+   }
+   .form a:hover{
+       opacity: 0.8;
+   }
+    .logo-container img{
+        margin-right: 10%;
+    }
+  .logo-container form a svg{
+      margin-right: 18px;
+      
+  }
+@media(max-width:600px){
+ .logo-container{
+      display:grid;
+    
+  }
+.logo-container form a svg a{
+      font-size: 10px;
+  }
+   .logo-container section img{
+        margin-top: 40px;
+        margin-right: 4%;
+        width:50%;
+      
+    }
+    .form h1{
+      
+      margin-top: 40px;
+       margin-bottom: 20px;
+      text-align: center;
+      font-size:20px;
+   }
+    .logo-container img{
+        margin-top: 20px;
+        margin-left: 25%;
+        width:50%;
+       margin-bottom: 40px;
+    }
+}  
+ @media(min-width:625px)and ( max-width:760px){
+
+  .logo-container{
+       max-width: 90%;
+      height: 100vh;
+      margin: 0 auto;
+       
+  }
+   .logo-container section img{
+        margin-top: 40px;
+        margin-right: 4%;
+        width:50%;
+      
+    }
+    .form h1{
+      
+      margin-top: 10px;
+       margin-bottom: 20px;
+      text-align: center;
+      font-size:20px;
+   }
+    .logo-container img{
+        margin-top: 20px;
+        margin-left:0%;
+        width:35%;
+       margin-bottom: 40px;
+    }
+    .form{
+    margin-left: 5%;
+    margin-right:40px;
+  
+   }
+} 
